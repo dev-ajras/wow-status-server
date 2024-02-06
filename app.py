@@ -33,3 +33,4 @@ def get_seasonal_server_status_us(server_name):
     for realm in realms:
         if realm["name"] == server_name:
             print(f"Realm: {realm['name']} | Type: {realm['type']['name']} | Population: {realm['population']['name']} | Status: {'Online' if realm['online'] else 'Offline'}")
+#comment
